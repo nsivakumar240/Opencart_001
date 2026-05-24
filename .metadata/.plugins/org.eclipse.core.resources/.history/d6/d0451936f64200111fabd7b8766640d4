@@ -1,0 +1,73 @@
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pageObjects.Homepage;
+import pageObjects.MyAccountPage;
+import pageObjects.loginpage;
+import testBase.Baseclass;
+
+public class TC_D_D_T extends Baseclass{
+
+	@Test(dataProvider="LoginData",dataProviderClass=DataProvider.class)
+	public void verify_loginDDT(String email, String password, String exp)
+	{
+		logger.info("**** Starting TC_003_LoginDDT *****");
+		
+		try {
+	
+		//Home page
+			Homepage hp=new Homepage(driver);
+			hp.accountreg();
+			hp.login1(); //Login link under MyAccount
+				
+			//Login page
+			loginpage lp=new loginpage(driver);
+			lp.Username(email);
+			lp.password(password);
+			lp.clk1(); //Login button
+				
+			//My Account Page
+			MyAccountPage macc=new MyAccountPage(driver);
+			boolean targetPage=macc.isMyAccountPageExiste();
+			
+			if(exp.equalsIgnoreCase("Valid"))
+			{
+				if(targetPage==true)
+				{
+					macc.logout();
+					Assert.assertTrue(true);
+				}
+				else
+				{
+					Assert.assertTrue(false);
+				}
+			}
+			
+			if(exp.equalsIgnoreCase("Invalid"))
+			{
+				if(targetPage==true)
+				{
+					macc.logout();
+					Assert.assertTrue(false);
+				}
+				else
+				{
+					Assert.assertTrue(true);
+				}
+			}
+		}
+		catch(Exception e)
+		{
+		Assert.fail("An exception occurred: " + e.getMessage());
+		}
+			
+		logger.info("**** Finished TC_003_LoginDDT *****");
+	}
+	
+}
+
+
+

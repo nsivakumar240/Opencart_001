@@ -1,0 +1,45 @@
+package Utilities;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelUtility {
+	
+	public FileInputStream fi;
+	public FileOutputStream fo;
+	public XSSFWorkbook workbook;
+	public XSSFSheet sheet;
+	public XSSFRow row;
+	public XSSFCell cell;
+	String path;
+	
+	public ExcelUtility(String path) {
+		this.path=path;
+	}
+	
+	public int getRowcount(String sheetname) throws IOException
+	{
+		fi=new FileInputStream(path);
+	    workbook=new XSSFWorkbook(fi);
+	    sheet= workbook.getSheet(sheetname);
+	    int rownum=sheet.getLastRowNum();
+	    workbook.close();
+	    fi.close();
+	    return rownum;
+	}
+	
+	public int getCellcount(String sheetname,int rowno)
+	{
+		fi.
+	}
+	
+	
+
+}

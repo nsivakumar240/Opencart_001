@@ -1,0 +1,65 @@
+2026-05-09 19:32:39 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml"
+2026-05-09 19:32:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml
+
+2026-05-09 19:33:07 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml"
+2026-05-09 19:33:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml
+
+2026-05-09 19:34:52 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml"
+2026-05-09 19:34:53 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml
+
+2026-05-09 19:41:00 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml"
+2026-05-09 19:41:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml
+
+2026-05-09 19:41:15 INFO  TC001_Beta:14 - **Started TC001_beta**
+2026-05-09 19:41:49 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml"
+2026-05-09 19:41:49 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml
+
+2026-05-09 19:41:56 INFO  TC001_Beta:14 - **Started TC001_beta**
+2026-05-09 19:42:14 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml"
+2026-05-09 19:42:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\TC001.xml
+
+2026-05-09 19:42:23 INFO  TC001_Beta:14 - **Started TC001_beta**
+2026-05-09 23:10:42 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml"
+2026-05-09 23:10:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml
+
+2026-05-09 23:15:16 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml"
+2026-05-09 23:15:38 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml
+
+2026-05-09 23:18:10 INFO  TC001_Beta:14 - **Started TC001_beta**
+2026-05-09 23:20:50 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml"
+2026-05-09 23:20:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml
+
+2026-05-09 23:22:52 INFO  TC001_Beta:14 - **Started TC001_beta**
+2026-05-09 23:25:27 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml"
+2026-05-09 23:25:29 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml
+
+2026-05-09 23:26:28 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml"
+2026-05-09 23:26:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml
+
+2026-05-09 23:27:44 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml"
+2026-05-09 23:27:45 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml
+
+2026-05-09 23:35:01 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml"
+2026-05-09 23:35:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml
+
+2026-05-09 23:35:43 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml"
+2026-05-09 23:35:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml
+
+2026-05-09 23:36:43 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml"
+2026-05-09 23:36:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\Beta_core_testing\grid-docker.xml
+

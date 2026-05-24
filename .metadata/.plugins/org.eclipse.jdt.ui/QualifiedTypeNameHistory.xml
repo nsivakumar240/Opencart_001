@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.RandomStringUtils"/>
+    <fullyQualifiedTypeName name="testBase.Baseclass"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeOptions"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
+</qualifiedTypeNameHistroy>

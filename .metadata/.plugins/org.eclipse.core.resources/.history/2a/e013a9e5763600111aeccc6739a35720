@@ -1,0 +1,9 @@
+package pageObjects;
+
+public class loginpage extends BasePage {
+
+	public loginpage(WebDriver driver)
+	{
+		super(driver);
+	}
+}

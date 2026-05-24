@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-11T18:04:47 IST" name="Suite" finished-at="2026-04-11T18:05:16 IST" duration-ms="29715">
+    <groups>
+    </groups>
+    <test started-at="2026-04-11T18:04:47 IST" name="edge" finished-at="2026-04-11T18:04:49 IST" duration-ms="2183">
+      <class name="testCases.TC_Beta">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Beta@6111ba37]" started-at="2026-04-11T18:04:47 IST" name="setup" finished-at="2026-04-11T18:04:49 IST" duration-ms="2052" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created
+from unknown error: cannot find msedge binary 
+Host info: host: 'DESKTOP-0P2I782', ip: '192.168.29.28'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from unknown error: cannot find msedge binary 
+Host info: host: 'DESKTOP-0P2I782', ip: '192.168.29.28'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at testBase.Baseclass.setup(Baseclass.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TCstart()[pri:0, instance:testCases.TC_Beta@6111ba37]" started-at="2026-04-11T18:04:49 IST" name="TCstart" finished-at="2026-04-11T18:04:49 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created
+from unknown error: cannot find msedge binary 
+Host info: host: 'DESKTOP-0P2I782', ip: '192.168.29.28'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from unknown error: cannot find msedge binary 
+Host info: host: 'DESKTOP-0P2I782', ip: '192.168.29.28'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at testBase.Baseclass.setup(Baseclass.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCstart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_Beta@6111ba37]" started-at="2026-04-11T18:04:49 IST" name="teardown" finished-at="2026-04-11T18:04:49 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_Beta -->
+    </test> <!-- edge -->
+    <test started-at="2026-04-11T18:04:47 IST" name="chrometest" finished-at="2026-04-11T18:05:12 IST" duration-ms="25316">
+      <class name="testCases.TC_Beta">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Beta@4678a2eb]" started-at="2026-04-11T18:04:47 IST" name="setup" finished-at="2026-04-11T18:05:04 IST" duration-ms="17756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TCstart()[pri:0, instance:testCases.TC_Beta@4678a2eb]" started-at="2026-04-11T18:05:04 IST" name="TCstart" finished-at="2026-04-11T18:05:12 IST" duration-ms="7462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCstart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_Beta@4678a2eb]" started-at="2026-04-11T18:05:12 IST" name="teardown" finished-at="2026-04-11T18:05:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_Beta -->
+    </test> <!-- chrometest -->
+    <test started-at="2026-04-11T18:04:47 IST" name="firefox" finished-at="2026-04-11T18:05:16 IST" duration-ms="29714">
+      <class name="testCases.TC_Beta">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Beta@7894f09b]" started-at="2026-04-11T18:04:47 IST" name="setup" finished-at="2026-04-11T18:05:12 IST" duration-ms="25118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TCstart()[pri:0, instance:testCases.TC_Beta@7894f09b]" started-at="2026-04-11T18:05:12 IST" name="TCstart" finished-at="2026-04-11T18:05:16 IST" duration-ms="4521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCstart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_Beta@7894f09b]" started-at="2026-04-11T18:05:16 IST" name="teardown" finished-at="2026-04-11T18:05:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_Beta -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
